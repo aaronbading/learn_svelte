@@ -19,6 +19,9 @@
 <h1>Hello {name}!</h1>
 <img {src} alt="A man dances.">
 <Nested answer={42}/>
+<Nested/> <!-- this is equivalent to the above line -->
+
+
 <Button/>
 <AddNumberButton/>
 
