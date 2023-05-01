@@ -1,11 +1,11 @@
 <script>
 	import Nested from './Nested.svelte';
     import Button from './Button.svelte';
+    import AddNumberButton from './AddNumberButton.svelte';
     let name = 'world';
     let src = 'https://media.giphy.com/media/3o7aD2jBmUohFAOZ5W/giphy.gif';
     // let src = '../../static/favicon.png';  // dont know why this does not work .. 
 
-    
 </script>
 
 <style>
@@ -18,7 +18,7 @@
 
 <h1>Hello {name}!</h1>
 <img {src} alt="A man dances.">
-<Nested />
-
+<Nested answer={42}/>
 <Button/>
+<AddNumberButton/>
 

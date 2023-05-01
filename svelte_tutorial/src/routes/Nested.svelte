@@ -1,1 +1,8 @@
-<p>This is another paragraph.</p>
+<script>
+    /**
+	 * @type {any}
+	 */
+     export let answer;
+</script>
+
+<p>The answer is {answer}</p>
