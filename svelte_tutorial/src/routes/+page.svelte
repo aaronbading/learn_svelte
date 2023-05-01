@@ -5,6 +5,7 @@
     import Info from './Info.svelte';
     import Logic from './Logic.svelte';
 
+    import Promise from './Promise.svelte';
     const pkg = {
 		name: 'svelte',
 		version: 3,
@@ -40,6 +41,7 @@
 <!-- <Info name={pkg.name} version={pkg.version} speed={pkg.speed} website={pkg.website}/>  this is equivalent to the below line -->
 <Info {...pkg}/>
 <Logic/>
+
 
 
 
