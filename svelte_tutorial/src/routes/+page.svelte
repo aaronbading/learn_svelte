@@ -1,3 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<h2>Get started</h2>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Nested from './Nested.svelte';
+    import Button from './Button.svelte';
+    let name = 'world';
+    let src = 'https://media.giphy.com/media/3o7aD2jBmUohFAOZ5W/giphy.gif';
+    // let src = '../../static/favicon.png';  // dont know why this does not work .. 
+</script>
+
+<style>
+    p {
+    color: purple;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 2em;
+}
+</style>
+
+<h1>Hello {name}!</h1>
+<img {src} alt="A man dances.">
+<Nested />
+<Button/>
+<p>Added style</p>
